@@ -4,7 +4,7 @@ class Persona
   private $nombre;
   private $alquiler = [];
 
-  public function __construct($nombre, $alquiler)
+  public function __construct($nombre, array $alquiler)
   {
     $this->nombre = $nombre;
     $this->alquiler = $alquiler;
