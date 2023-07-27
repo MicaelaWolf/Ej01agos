@@ -1,7 +1,7 @@
 <?php 
 
-use Casa;
-use Persona;
+require_once 'Casa.php';
+require_once 'Persona.php';
 
 class Alquiler {
   private $persona;
@@ -17,9 +17,14 @@ class Alquiler {
     $this->costo = $costo;
   }
   
-  public function alquilar(Persona $persona, Casa $casa){
+  public static function alquilar(Persona $persona, Casa $casa){
     
   }
+
+  public static function listar(){
+    
+  }
+  
   /**
    * Get the value of persona
    */ 
