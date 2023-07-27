@@ -16,7 +16,10 @@ class Alquiler {
     $this->duracionMeses = $duracionMeses;
     $this->costo = $costo;
   }
-
+  
+  public function alquilar(Persona $persona, Casa $casa){
+    
+  }
   /**
    * Get the value of persona
    */ 
@@ -39,9 +42,5 @@ class Alquiler {
   public function getCosto()
   {
     return $this->costo;
-  }
-
-  public function alquilar(Persona $persona, Casa $casa){
-    
   }
 }
